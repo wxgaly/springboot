@@ -23,7 +23,7 @@ public class User {
     private int age;
 
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss.SSS", locale = "zh", timezone = "GMT+8")
-    private Date brithday;
+    private Date birthday;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String desc;
@@ -52,12 +52,12 @@ public class User {
         this.age = age;
     }
 
-    public Date getBrithday() {
-        return brithday;
+    public Date getBirthday() {
+        return birthday;
     }
 
-    public void setBrithday(Date brithday) {
-        this.brithday = brithday;
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
     }
 
     public String getDesc() {
