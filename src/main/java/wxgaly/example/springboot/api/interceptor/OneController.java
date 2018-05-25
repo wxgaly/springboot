@@ -37,7 +37,7 @@ public class OneController {
 
         User user = new User();
         user.setAge(18);
-        user.setName("manager");
+        user.setName("manager111");
         user.setPassword("123456");
         user.setBirthday(new Date());
 
