@@ -36,7 +36,8 @@ public class UploadFileController {
         String fileName = file.getOriginalFilename();
         System.out.println("fileName-->" + fileName);
         System.out.println("getContentType-->" + contentType);
-        String filePath = request.getSession().getServletContext().getRealPath("imgupload/");
+//        String filePath = request.getSession().getServletContext().getRealPath("imgupload/");
+        String filePath = "E:\\imgupload\\";
         System.out.println("filePath-->" + filePath);
         try {
             System.out.println("getBytes-->" + file.getBytes().length);
